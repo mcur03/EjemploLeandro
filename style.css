@@ -19,12 +19,7 @@
     height: auto;
     margin: 8rem;
 }
-.footer{
-    margin: 4rem 0 0 0;
-    background-color: rgb(11, 185, 11);
-    padding: 4rem;
-    text-align: center;
-}
+
 .content div{
     position: relative;
 }
