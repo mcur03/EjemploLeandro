@@ -6,3 +6,7 @@ footer{
         display: flex;
     }
 }
+
+.header{
+background-color: aqua;
+}
