@@ -1,3 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.content{
+    display: flex;
+}
+.imagen{
+    max-width: 90%;
+    height: auto;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.principalContenido{
+    max-width: 50%;
+    height: auto;
+    margin: 8rem;
+}
+
+.content div{
+    position: relative;
+}
+svg{
+    position: absolute;
+    bottom: 0;
+}
+.contenidoSegundario{
+    background-color:#17E65D;
+}
+.contenedorBoton{
+    text-align: center;
+    margin-top: 4rem;
+
+}
+.boton{
+    margin: 2rem;
+    text-align: center;
+    border-radius: 1rem; 
+    padding: 1rem;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: rgb(11, 185, 11);
+    box-shadow: 0 0.3rem 0.3rem 0 rgb(168, 166, 166);
+    transition: all .3s ease-in-out;
+}
+.boton:hover{
+    transform: scale(.9);
+    box-shadow: 0 0.3rem 0.3rem -0.3rem rgb(168, 166, 166);
+    opacity:  .8;
+}
 footer{
     text-decoration: none;
     gap: 3rem;
