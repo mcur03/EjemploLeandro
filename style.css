@@ -52,3 +52,15 @@ svg{
     box-shadow: 0 0.3rem 0.3rem -0.3rem rgb(168, 166, 166);
     opacity:  .8;
 }
+footer{
+    text-decoration: none;
+    gap: 3rem;
+    border: 2px solid tomato;
+    ul{
+        display: flex;
+    }
+}
+
+.header{
+background-color: aqua;
+}
